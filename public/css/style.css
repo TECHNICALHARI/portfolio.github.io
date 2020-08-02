@@ -1,0 +1,218 @@
+*{
+    margin: 0px;padding: 0px;box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header-content h1{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    text-shadow: 3px 2px 3px #000;
+    word-spacing: 0.1rem;
+    padding-top: 30px;
+}
+.header-content p{
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 3px 2px 3px #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media(max-width:768px){
+    .header-content h1{
+        font-size: 30px;
+    }
+    .header-content p{
+        font-size: 20px;
+    }
+}
+.icons{
+    border: 1px solid #fff;
+    height: 100px;
+    width: 100px;
+    margin: 48px auto;
+    transform: rotate(45deg);
+}
+.icons .fa{
+    font-size: 50px;
+    margin-top: 20%;
+    margin-left: 30%;
+    color: #ffc800 !important;
+    transform: rotate(-45deg);
+    transition: 0.5s all linear;
+    text-shadow: 2px 2px 1px #000;
+}
+.icons .fa:hover{
+    color: #e7062c !important;
+}
+.font-div{
+    width: 30%;
+
+}
+.collapse{
+    margin: 0px;
+    padding: 0px;
+}
+.card-header{
+    margin: 0px;
+    padding: 0px;
+    padding: 20px 0;
+}
+.card-header h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+
+}
+.card-header p{
+    text-align: center;
+    color: black;
+}
+.skills h4{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    margin-bottom: 20px;
+
+}
+/* resume start */
+.objective h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+.objective p{
+    color: yellow;
+}
+.education h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    color: #fff;
+
+}
+.fieldInterest h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+.fieldInterest p{
+    color: yellow;
+}
+.Training h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+.Training p{
+    color: yellow;
+}
+.Training h6{
+    color: yellow;
+}
+
+/* Resume end */
+/* Work start */
+.work-details h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e04c07;
+    color: #fff;
+}
+.work-details p{
+    padding: 20px 0;
+}
+.projects{
+    height: 350px;
+    margin-top: 20px;
+}
+.project_details h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e04c07;
+    color: #fff;
+    margin: 30px 0;
+}
+.project_content h3{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    padding: 20px 0;
+}
+.project_content p{
+    color: #606060;
+}
+label{
+    color: red;
+}
+
+
+/* Work End */
+/* Contact start */
+.contact-header{
+    background: yellow;
+    width: 100%;
+    height:80vh;
+}
+@media(max-width:768px){
+    .contact-header{
+        height: 900px;
+    }
+}
+.contact-details h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 30px 0;
+    text-align: center;
+}
+.contact-details h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+.contact-details p{
+    color: #000;
+}
+.your-contact h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 30px 0;
+    text-align: center;
+}
+.form-group input{
+    border-radius: 100px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.submit{
+    text-align: center;
+    padding: 12px 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-left: 85px;
+    background: rgb(1, 1, 46);
+    border-style: none;
+    color:#fff !important;
+    cursor: pointer;
+}
+/*     corona virus */
